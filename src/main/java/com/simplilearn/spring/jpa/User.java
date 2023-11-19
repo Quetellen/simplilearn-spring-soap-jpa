@@ -1,4 +1,5 @@
 package com.simplilearn.spring.jpa;
+
 import java.io.Serializable;
 import java.util.Date;
 
@@ -12,6 +13,7 @@ import jakarta.persistence.Id;
 import jakarta.persistence.Table;
 import jakarta.persistence.Temporal;
 import jakarta.persistence.TemporalType;
+
 @Entity
 @Table(name="USER")
 public class User implements Serializable{
